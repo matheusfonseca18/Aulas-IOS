@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Aula de forms</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Criando formulário</h1>
+    <form method="post" id="contato" action="mailto:matheus.fonseca0218@gmail.com">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Ex: João" required="required"> <br> <br>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" placeholder="Ex: Pereira"> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Ex: email123@gmail.com"> <br> <br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" required="required" minlength="8"> <br> <br>
+
+        <!-- elemento radio e checkbox -->
+        <p>Qual seu gênero?</p>
+        <input type="radio" name="genero" id="gop1">
+        <label for="gop1">Masculino</label><br>
+
+        <input type="radio" name="genero" id="gop2">
+        <label for="gop2">Feminino</label> <br>
+
+        <input type="radio" name="genero" id="gop3">
+        <label for="gop3">Prefiro não responder</label> <br><br>
+
+        <p>Quais desses jogo você já jogou?</p>
+        <input type="checkbox" name="jogos" id="jop1">
+        <label for="jop1">Sonic</label> <br>
+
+        <input type="checkbox" name="jogos" id="jop2">
+        <label for="jop2">Super Mario World</label> <br>
+
+        <input type="checkbox" name="jogos" id="jop3">
+        <label for="jop3">FIFA Street</label> <br><BR>
+
+        <!-- lista elemento select -->
+
+        <label for="jogos">Selecione um jogo da lista</label>
+        <select name="jogos" id="jogos">
+            <option value="Ecolha_jogo" selected disabled>Escolha um jogo</option>
+            <option value="GTAV">GTA V</option>
+            <option value="FIFA23">FIFA 23</option>
+            <option value="Valorant">Valorant</option>
+        </select> <br> <br>
+        <!-- lista elemento datalist -->
+        <label for="dlist">Sua cidade</label>
+        <input autocomplete="on" id="dlist" name="dlist" placeholder="Sua cidade" list="cidade">
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Guarulhos"></option>
+            <option value="Osasco"></option>
+            <option value="Grajaú"></option>
+        </datalist> <br> <br>
+        <!-- barrinha de 0 a 100 -->
+        <P>Avalie de 0 a 100</P>
+        0 <input type="range" id="valor1" name="valor1"> 100 <br> <br>
+
+        <label for="sugestao">Deixe sua sugestão:</label> <br>
+        <textarea name="sugestao" id="sugestao" cols="30" rows="10" placeholder="Digite sua sugestão para nós aqui." maxlength="300"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
