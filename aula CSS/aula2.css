@@ -1,0 +1,39 @@
+* {
+  background-color: rgb(246, 255, 205);
+  margin: 0%;
+  text-align: center;
+  white-space: nowrap;
+  padding: 5px;
+}
+/* classe que funciona em todos q tiverem essa classe */
+.teste1 {
+  background-color: rgb(100, 99, 99);
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* classe que funciona apenas em h1 */
+h1.teste1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: bisque;
+  background-color: black;
+}
+/* ID que funcina apenas nele mesmo, o ID é único */
+#id1 {
+  background-color: rgb(126, 69, 69);
+  color: aliceblue;
+  font-size: 27px;
+  
+}
+#quadrado {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin: 20px;
+    border: 8px; border-radius: 18px; border-color: aliceblue; border-style: groove;
+    cursor: pointer;
+ }
+ input {
+    line-height: 18px;
+    border-style: dashed;
+    color: rgb(0, 212, 28);
+ }
