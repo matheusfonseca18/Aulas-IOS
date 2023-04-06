@@ -1,12 +1,11 @@
 * {
   background-color: rgb(246, 255, 205);
-  margin: 0%;
+  margin: 10px 2px;
   text-align: center;
   white-space: nowrap;
-  padding: 5px;
 }
 body {
-    border: dotted 2px #ff0808;
+  border: dotted 2px #ff0808;
 }
 /* classe que funciona em todos q tiverem essa classe */
 .teste1 {
@@ -16,7 +15,7 @@ body {
 }
 /* classe que funciona apenas em h1 */
 h1.teste1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: bisque;
   background-color: black;
 }
@@ -25,18 +24,39 @@ h1.teste1 {
   background-color: rgb(126, 69, 69);
   color: aliceblue;
   font-size: 27px;
-  
 }
 #quadrado {
-    height: 400px;
-    width: 400px;
-    background-color: black;
-    margin: 20px;
-    border: 8px; border-radius: 18px; border-color: aliceblue; border-style: groove;
-    cursor: pointer;
- }
- input {
-    line-height: 18px;
-    border-style: dashed;
-    color: rgb(0, 212, 28);
- }
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  margin: 20px;
+  border: 8px;
+  border-radius: 18px;
+  border-color: aliceblue;
+  border-style: groove;
+  cursor: pointer;
+  transition: all 5s;
+}
+#quadrado:hover {
+  background-color: aliceblue;
+}
+input {
+  line-height: 18px;
+  border-style: dashed;
+  color: rgb(0, 212, 28);
+}
+button {
+  background-color: #ff7c7c;
+  width: 80px;
+  color: aliceblue;
+  transition: all 1s;
+}
+button:hover {
+  background-color: #ff0808;
+  width: 100px;
+}
+.logo_nav {
+  height: 40px;
+  width: 40px;
+  padding: 1em;
+}

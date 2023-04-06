@@ -1,0 +1,16 @@
+* {
+    margin: 10px;
+    padding: 0px;
+}
+figure {
+    border: solid 2px #0026ff;
+    text-align: center;   
+}
+figcaption {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.dino {
+    
+}
