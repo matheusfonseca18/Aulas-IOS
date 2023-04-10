@@ -2,7 +2,7 @@ body {
   background-color: rgb(230, 230, 230);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
-  margin: 0px 0px;
+  margin: 0rem 0rem;
 }
 
 main {
@@ -10,7 +10,7 @@ main {
 }
 
 p {
-  text-indent: 1em;
+  text-indent: 1rem;
 }
 
 header {
@@ -19,11 +19,16 @@ header {
 }
 
 .logo {
-  width: 3em;
-  height: 3em;
+  width: 3rem;
+  height: 3rem;
   float: left;
-  margin-top: -1em;
-  border-radius: 5%;
+  margin-top: -1rem;
+  border-radius: 20%;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  border-radius: 2rem;
 }
 
 h1 {
@@ -36,26 +41,28 @@ button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(146, 105, 15);
   border: medium darkgray;
-  width: 10em;
-  height: 1.5em;
+  width: 10rem;
+  height: 1.5rem;
   transition: 0.5s;
   cursor: pointer;
 }
 button:hover {
   color: rgb(255, 255, 255);
-  width: 11em;
-  height: 2em;
+  width: 11rem;
+  height: 2rem;
   background-color: rgb(182, 125, 1);
   border: rgb(146, 105, 15);
 }
 
 .menu {
   position: sticky;
-  top: 0em;
+  top: 0rem;
   width: 100%vw;
-  margin: 0em;
+  margin: 0rem;
   background-color: black;
-  padding: 1.5em;
+  padding: 1.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 a {
@@ -99,11 +106,12 @@ a:hover {
 }
 
 .capa_musica:hover {
-  width: 400px;
+  width: 25rem;
   height: 230px;
 }
 
 .rodape {
   background-color: rgba(27, 27, 27, 0.753);
   color: beige;
+  position: sticky;
 }
