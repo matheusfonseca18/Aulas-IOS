@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.5em;
+}
+
+#cabeça {
+  background-image: url(img/01.beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 2px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+
+.botão {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#seção {
+  padding: 20px;
+  background-color: #926239;
+  color: white;
+  text-align: center;
+}

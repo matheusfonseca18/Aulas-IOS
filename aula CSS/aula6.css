@@ -1,0 +1,27 @@
+section {
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}
+
+div {
+    border: solid 2px;
+    height: 150px;
+    width: 50px;
+    margin: 5px;
+}
+
+#cx1 {
+    background-color: rgb(195, 0, 255);
+    float: left;
+}
+
+#cx2 {
+    background-color: rgb(12, 28, 114);
+    float: left;
+}
+
+#cx3 {
+    background-color: rgb(0, 255, 55);
+    float: right;
+}
