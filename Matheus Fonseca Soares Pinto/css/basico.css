@@ -45,6 +45,7 @@ button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(146, 105, 15);
   border: medium darkgray;
+  /* border: 0.2rem solid rgb(146, 105, 15); */
   width: 10rem;
   height: 1.5rem;
   transition: 0.5s;
@@ -55,7 +56,8 @@ button:hover {
   width: 11rem;
   height: 2rem;
   background-color: rgb(182, 125, 1);
-  border: rgb(146, 105, 15);
+  border: solid 1px rgb(255, 255, 255);
+/* border-bottom: 0.2rem solid  white; */
 }
 
 .menu {
@@ -67,6 +69,7 @@ button:hover {
   padding: 1.5rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  max-height: 2.5rem;
 }
 
 a {

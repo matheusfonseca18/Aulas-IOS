@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+.display1 {
+    display: none;
+}
+
+.display2 {
+    display: inline;
+}
+
+.display3 {
+    display: block;
+}
+
+.display4 {
+    display: inline-block;
+}
