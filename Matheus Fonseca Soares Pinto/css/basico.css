@@ -9,7 +9,7 @@ body {
   margin: 0;
   min-height: 100vh;
   position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 20rem;
 }
 
 main {
@@ -35,6 +35,8 @@ header {
 
 .logo:hover {
   border-radius: 2rem;
+  border: 0.2rem solid rgb(228, 180, 24);
+  box-sizing: border-box;
 }
 
 h1 {
@@ -50,12 +52,12 @@ h1 {
   border: 0.2rem solid black;
   box-sizing: border-box;
   margin: 0;
-  padding: 0em 0.8em 0.8em;
+  padding: 0rem 0.8rem 0.8rem;
   transition: 0.5s;
 }
 
 .navegation:hover {
-  border-bottom: 0.5em solid rgb(228, 180, 24);
+  border-bottom: 0.5rem solid rgb(228, 180, 24);
 }
 
 .menu {
@@ -113,6 +115,7 @@ h1 {
 .capa_musica:hover {
   width: 25rem;
   height: 230px;
+  border: solid rgb(228, 180, 24);
 }
 
 .posters {
@@ -128,22 +131,34 @@ dd {
   background-color: rgba(27, 27, 27, 0.753);
   position: absolute;
   bottom: 0;
-  width: 98vw;
+  width: 100vw;
   color: beige;
   border: 0.1rem solid black;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.rodape h2 {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
 }
 
 .icones {
   width: 2.5rem;
   height: 2.5rem;
-  padding: 0 1em;
+  border-radius: 20%;
+  transition: 0.5s;
+  margin: 0 1em;
 }
 
-#github {
-  display: list-item;
+.icones:hover {
+  border-radius: 2rem;
+  border: 0.2rem solid rgb(228, 180, 24);
+  box-sizing: border-box;
 }
 
-#linkedin {
-  display: list-item
+.grid {
+  display: inline-block;
+  padding: 2rem;
 }
