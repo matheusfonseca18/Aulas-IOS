@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center ;
+}
+
+.col {
+    float: left;
+    width: 30%;
+    height: 8px;
+    box-sizing: border-box;
+}

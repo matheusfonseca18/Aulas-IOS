@@ -1,0 +1,17 @@
+@charset "UTF-8";   
+
+* {
+    background-color: rgb(255, 255, 217);
+    color: rgb(166, 108, 0);
+}
+
+.arroz {
+    color: aqua;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        background-color: rgb(255, 0, 0);
+    }
+
+}
