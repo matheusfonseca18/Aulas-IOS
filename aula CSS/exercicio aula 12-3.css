@@ -1,0 +1,36 @@
+div {
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    height: 22rem;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.mov:hover {
+    animation: aula 1s;
+}
+
+@keyframes aula {
+    0% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(30px);
+    }
+
+    70% {
+        transform: translateX(-30px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
