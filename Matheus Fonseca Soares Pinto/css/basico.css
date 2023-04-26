@@ -49,7 +49,7 @@ h1 {
   color: rgb(255, 255, 255);
   font-size: medium;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
   box-sizing: border-box;
   margin: 0;
   padding: 0rem 0.8rem 0.8rem;
