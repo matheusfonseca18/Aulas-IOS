@@ -1,0 +1,8 @@
+.eu {
+    border-radius: 15rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
