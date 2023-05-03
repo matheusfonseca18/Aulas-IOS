@@ -1,8 +1,36 @@
 .eu {
-    border-radius: 15rem;
+  border-radius: 15rem;
 }
 
 .container1 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .eu {
+    filter: saturate(20%);
+    transition: 0.5s;
+} */
+/* 
+.eu:hover {
+    filter: saturate(100%);
+} */
+
+.testinho {
+  text-align: center;
+  filter: saturate(20%);
+  transition: 0.5s;
+}
+
+.testinho p {
+  opacity: 0%;
+}
+
+.testinho:hover {
+  filter: saturate(100%);
+  opacity: 100%;
+}
+
+.testinho p:hover {
+  opacity: 100%;
 }
