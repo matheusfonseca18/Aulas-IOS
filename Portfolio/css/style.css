@@ -8,7 +8,9 @@
 }
 
 body {
-  height: 200rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 p {
@@ -34,7 +36,7 @@ hr {
 }
 
 .navegation {
-  background-color: hsl(0, 0%, 0% , 20%);
+  background-color: hsl(0, 0%, 0%, 20%);
   color: white;
   height: 2rem;
   position: fixed;
@@ -45,7 +47,7 @@ hr {
 }
 
 .linkshome {
-  background-color: rgb(255, 16, 16 , 0%);
+  background-color: rgb(255, 16, 16, 0%);
   width: 5rem;
   border-bottom: solid 0.4rem hsla(0, 0%, 79%, 0.3);
   text-align: center;
@@ -55,21 +57,21 @@ hr {
   transition: 0.5s;
 }
 
-.ativo{
+.ativo {
   border-bottom: solid 0.4rem rgb(159, 255, 255);
 }
 
 .linkshome:hover {
-  border-bottom: solid 0.4rem hsl(180, 100%, 50% , 100%);
+  border-bottom: solid 0.4rem hsl(180, 100%, 50%, 100%);
 }
 
-.home{
+.home {
   color: rgb(159, 255, 255);
 }
 
 a {
   text-decoration: none;
-  background-color: rgb(255, 16, 16 , 0%);
+  background-color: rgb(255, 16, 16, 0%);
 }
 
 .eu {
@@ -94,17 +96,31 @@ a {
   animation: carregando 3s;
 }
 
-@keyframes carregando{
-  0% { width: 0%; } 
-  100% { width: 100%}
+@keyframes carregando {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-footer{
-  display: flex;
-}
-
-.rodape {
-  height: 20rem;
-  width: 20rem;
+footer {
+  height: 8rem;
+  width: 100%;
   background-color: grey;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+.sociais {
+
 }
