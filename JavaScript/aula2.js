@@ -32,6 +32,5 @@ console.log(`a média da note foi de ${notas}`)
 
 console.log(typeof "x" && 4.5)
 
-var freq=4
 
-console.log (`a media foi de ${}`)
+console.log (`a media foi de`)

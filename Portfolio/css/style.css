@@ -1,36 +1,92 @@
+* {
+  background-color: rgb(0, 0, 29);
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  text-indent: 1rem;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0.2rem 0 1rem 0;
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: normal;
+}
+
+hr {
+  width: 4rem;
+  border-color: aqua;
+}
+
+.navegation {
+  background-color: hsl(0, 0%, 0% , 20%);
+  color: white;
+  height: 2rem;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkshome {
+  background-color: rgb(255, 16, 16 , 0%);
+  width: 5rem;
+  border-bottom: solid 0.4rem hsla(0, 0%, 79%, 0.3);
+  text-align: center;
+  margin: 0 2rem;
+  line-height: 1.9rem;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.linkshome:hover {
+  border-bottom: solid 0.4rem hsl(180, 100%, 50% , 100%);
+}
+
+.home{
+  color: aqua;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(255, 16, 16 , 0%);
+}
+
 .eu {
   border-radius: 15rem;
 }
 
 .container1 {
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-/* .eu {
-    filter: saturate(20%);
-    transition: 0.5s;
-} */
-/* 
-.eu:hover {
-    filter: saturate(100%);
-} */
-
-.testinho {
-  text-align: center;
-  filter: saturate(20%);
-  transition: 0.5s;
+.about {
+  width: 28rem;
 }
 
-.testinho p {
-  opacity: 0%;
+.barrinha {
+  width: 28rem;
+  height: 0.4rem;
+  background-color: aqua;
+  animation: piru 3s;
 }
 
-.testinho:hover {
-  filter: saturate(100%);
-  opacity: 100%;
-}
-
-.testinho p:hover {
-  opacity: 100%;
+@keyframes piru{
+  0% { width: 0%; } 
+  100% { width: 100%}
 }
