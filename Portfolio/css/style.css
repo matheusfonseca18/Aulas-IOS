@@ -7,6 +7,10 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  height: 200rem;
+}
+
 p {
   text-indent: 1rem;
   font-size: 1rem;
@@ -51,12 +55,16 @@ hr {
   transition: 0.5s;
 }
 
+.ativo{
+  border-bottom: solid 0.4rem rgb(159, 255, 255);
+}
+
 .linkshome:hover {
   border-bottom: solid 0.4rem hsl(180, 100%, 50% , 100%);
 }
 
 .home{
-  color: aqua;
+  color: rgb(159, 255, 255);
 }
 
 a {
@@ -83,10 +91,20 @@ a {
   width: 28rem;
   height: 0.4rem;
   background-color: aqua;
-  animation: piru 3s;
+  animation: carregando 3s;
 }
 
-@keyframes piru{
+@keyframes carregando{
   0% { width: 0%; } 
   100% { width: 100%}
+}
+
+footer{
+  display: flex;
+}
+
+.rodape {
+  height: 20rem;
+  width: 20rem;
+  background-color: grey;
 }

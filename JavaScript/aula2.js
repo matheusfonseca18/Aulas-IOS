@@ -32,5 +32,3 @@ console.log(`a média da note foi de ${notas}`)
 
 console.log(typeof "x" && 4.5)
 
-
-console.log (`a media foi de`)
