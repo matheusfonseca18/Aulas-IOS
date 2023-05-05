@@ -1,5 +1,4 @@
 * {
-  background-color: rgb(0, 0, 29);
   color: white;
   padding: 0;
   margin: 0;
@@ -8,6 +7,7 @@
 }
 
 body {
+  background-color: rgb(0, 0, 29);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -23,22 +23,17 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
+.about h2 {
   margin: 0.2rem 0 1rem 0;
   font-size: 1.5rem;
   color: gray;
   font-weight: normal;
 }
 
-hr {
-  width: 4rem;
-  border-color: aqua;
-}
-
 .navegation {
-  background-color: hsl(0, 0%, 0%, 20%);
+  box-shadow: 0 0 3rem rgb(1, 238, 255 , 20%);
   color: white;
-  height: 2rem;
+  height: 2.4rem;
   position: fixed;
   width: 100vw;
   display: flex;
@@ -47,7 +42,6 @@ hr {
 }
 
 .linkshome {
-  background-color: rgb(255, 16, 16, 0%);
   width: 5rem;
   border-bottom: solid 0.4rem hsla(0, 0%, 79%, 0.3);
   text-align: center;
@@ -59,23 +53,27 @@ hr {
 
 .ativo {
   border-bottom: solid 0.4rem rgb(159, 255, 255);
+  color: #9fffff;
 }
 
 .linkshome:hover {
   border-bottom: solid 0.4rem hsl(180, 100%, 50%, 100%);
-}
-
-.home {
-  color: rgb(159, 255, 255);
+  transform: scale(1.1);
 }
 
 a {
   text-decoration: none;
-  background-color: rgb(255, 16, 16, 0%);
 }
 
 .eu {
   border-radius: 15rem;
+  border: solid 0.3rem hsla(0, 0%, 79%, 0.3);
+  transition: 0.3s;
+}
+
+.eu:hover {
+  scale: 1.03;
+  border: solid 0.3rem aqua;
 }
 
 .container1 {
@@ -92,7 +90,7 @@ a {
 .barrinha {
   width: 28rem;
   height: 0.4rem;
-  background-color: aqua;
+  background-color: #00ffff;
   animation: carregando 3s;
 }
 
@@ -105,22 +103,72 @@ a {
   }
 }
 
-footer {
-  height: 8rem;
+.rodape {
+  height: 10rem;
   width: 100%;
-  background-color: grey;
+  background-color: hsl(0, 0%, 0%, 8%);
   margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* text-align: center; */
+  box-shadow: 0 0 3rem rgb(1, 238, 255 , 5%);
 }
 
-li {
+.rodape li{
   list-style: none;
   text-align: center;
+  line-height: 1.7rem;
+}
+
+.rodape h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.rodape a {
+  color: #9fffff;
+  transition: 0.3s;
+}
+
+.rodape a:hover {
+  color: aqua;
+  text-decoration: underline;
 }
 
 .sociais {
+  display: inline-block;
+  padding: 2rem;
+  transition: 0.3s;
+}
 
+.sociais:hover {
+  transform: scale(1.2);
+}
+
+.icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: 0.5s;
+  margin: -1rem;
+}
+
+.cred p{
+  width: 20rem;
+  font-size: small;
+  text-align: center;
+}
+
+.cred a:hover {
+  color: rebeccapurple;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+::-webkit-scrollbar-track {
+  background: hsla(240, 12%, 38%, 0.788);
+}
+::-webkit-scrollbar-thumb {
+  background:hsl(240, 12%, 45%);
 }
