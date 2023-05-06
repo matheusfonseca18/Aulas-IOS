@@ -8,12 +8,10 @@
 
 body {
   background-color: rgb(0, 0, 29);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 .navegation {
+  background-color: rgb(0, 0, 29);
   box-shadow: 0 0 3rem rgb(1, 238, 255, 20%);
   color: white;
   height: 2.4rem;
@@ -52,17 +50,15 @@ a {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  column-gap: 10px;
-  row-gap: 10px;
+  grid-template-rows: repeat(7, 7rem);
+  gap: 0.8rem;
   align-items: center;
   justify-items: center;
 }
 
 .titulo {
-  display: block;
   grid-column: 1 / 8;
-  grid-row: 1 / 4;   
+  grid-row: 1 / 3; 
 }
 
 .p1 {
@@ -79,16 +75,10 @@ a {
 }
 
 .barrinha {
-  height: 0.4rem;
-  width: 3rem;
-  background-color: aqua;
-}
-
-.barrinha {
   width: 12.3rem;
   height: 0.4rem;
   background-color: #00ffff;
-  animation: carregando 3s;
+  animation: carregando 2s;
 }
 
 @keyframes carregando {
@@ -103,7 +93,7 @@ a {
 .rodape {
   height: 10rem;
   width: 100%;
-  background-color: hsl(0, 0%, 0%, 8%);
+  background-color: rgb(0, 0, 29);
   margin-top: auto;
   display: flex;
   align-items: center;
