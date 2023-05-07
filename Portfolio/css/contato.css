@@ -8,6 +8,15 @@
 .container1 {
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+.contato {
+  display: grid;
+  justify-content: center;
+  height: 30rem;
+  width: 25rem;
+  background-color: rgb(39, 0, 71);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 40%);
 }
