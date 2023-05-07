@@ -8,7 +8,7 @@
 .container1 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, 7rem);
+  grid-template-rows: repeat(10, 7rem);
   gap: 0.8rem;
   align-items: center;
   justify-items: center;
@@ -66,9 +66,25 @@ h4 , p {
   transition: 0.5s;
 }
 
-.card1:hover , .card2:hover {
+.card1:hover , .card2:hover , .card3:hover {
   transform: scale(1.05);
   background-color: rgb(49, 0, 88);
+}
+
+.alinha3 {
+  grid-column: 2 / 4;
+  grid-row-start: 7;
+}
+
+.card3 {
+  height: 25rem;
+  width: 20rem;
+  margin-top: 17rem;
+  background-color: rgb(39, 0, 71);
+  text-align: center;
+  border-radius: 3%;
+  transition: 0.5s;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 40%);
 }
 
 .ilustraçao {
