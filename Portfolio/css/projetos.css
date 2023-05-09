@@ -28,12 +28,12 @@
 .alinha1 {
   grid-column: 2 / 4;
   grid-row-start: 3;
+  margin-top: 17rem;
 }
 
 .card1 {
   height: 25rem;
   width: 20rem;
-  margin-top: 17rem;
   background-color: rgb(39, 0, 71);
   text-align: center;
   border-radius: 3%;
@@ -54,12 +54,12 @@ p {
 .alinha2 {
   grid-column: 5/7;
   grid-row-start: 3;
+  margin-top: 17rem;
 }
 
 .card2 {
   height: 25rem;
   width: 20rem;
-  margin-top: 17rem;
   background-color: rgb(39, 0, 71);
   text-align: center;
   border-radius: 3%;
@@ -75,12 +75,12 @@ p {
 .alinha3 {
   grid-column: 2 / 4;
   grid-row-start: 7;
+  margin-top: 17rem;
 }
 
 .card3 {
   height: 25rem;
   width: 20rem;
-  margin-top: 17rem;
   background-color: rgb(39, 0, 71);
   text-align: center;
   border-radius: 3%;
@@ -93,12 +93,12 @@ p {
 .alinha4 {
   grid-column: 5 / 7;
   grid-row-start: 7;
+  margin-top: 17rem;
 }
 
 .card4 {
   height: 25rem;
   width: 20rem;
-  margin-top: 17rem;
   background-color: rgb(39, 0, 71);
   text-align: center;
   border-radius: 3%;

@@ -171,3 +171,18 @@
   }
 }
 /* fim animaçao projetos */
+
+/* inicio animaçao contato */
+.barrinha-contato {
+  animation: carregando-home 1s;
+}
+
+@keyframes carregando-home {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* fim animacao contato */
