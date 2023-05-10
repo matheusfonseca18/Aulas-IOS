@@ -62,16 +62,18 @@
 // }
 
 
-let idade = 0
-while (idade <= 10) {
+let idade = 0;
+while (idade <= 10) {;
     console.log (`é ${idade}`)
-    idade += 1;
+    idade += 1
 }
-console.log ("acabou")
+console.log ("acabou");
+
+let numero = 0;
 
 do {
-    idade -= 1;
-    console.log (`é ${idade}`)
+    numero =- 1;
+    console.log (`é ${numero}`)
 }
-    while (idade > 10)
-    console.log ("acabou")
+    while (numero > 10);
+    console.log ("acabou");

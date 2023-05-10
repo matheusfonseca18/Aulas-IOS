@@ -1,0 +1,63 @@
+html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 30rem;
+        width: 20rem;
+        background-color: aquamarine;
+      }
+
+      .form input,
+      .form textarea,
+      .form button {
+        display: block;
+        margin-bottom: 10px;
+        width: 250px;
+        padding: 5px;
+      }
+
+      .form button {
+        width: 100px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+      }
+
+      .form button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form action="enviar_email.php" method="post">
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="mensagem"
+            placeholder="Digite sua mensagem"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
