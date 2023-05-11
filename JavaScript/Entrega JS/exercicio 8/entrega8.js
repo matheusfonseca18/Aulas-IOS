@@ -4,13 +4,14 @@
 // verificar se o IMC está dentro do intervalo saudável de 18,5 a 24,9. O programa deve 
 // imprimir na tela se o IMC está dentro do intervalo saudável ou não
 
-let altura = Number(prompt (`Digite sua altura em metros. Ex: 1.70`))
-let peso = Number(prompt (`Digite seu peso em quilogramas. Ex: 66.5`))
-let IMC = peso/(altura *altura)
-alert (`${IMC}`)
+let = altura = Number(prompt("Digite sua altura em metros:"));
 
-if (IMC >= 18.5 ) {
-     alert(`Seu IMC é ${IMC} e está saudável`)
+let = peso = Number(prompt("Digite seu peso em quilogramas:"));
+
+let = IMC = peso / (altura * altura);
+
+if (IMC >= 18.5 && IMC <= 24.9) {
+  alert(`Seu IMC é de ${IMC} e está saudável.`);
 } else {
-     alert(`Seu IMC é ${IMC} e não está saudável`)
+  alert(`Seu IMC é de ${IMC} e não está saudável.`);
 }
