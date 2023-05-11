@@ -12,3 +12,6 @@ nomes.shift() //remove o primeiro valor
 console.log(nomes)
 nomes.unshift("Dayane") //adiciona o primeiro valor
 console.log(nomes)
+delete nomes[1]
+console.log(nomes)
+
