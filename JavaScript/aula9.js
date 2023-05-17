@@ -24,4 +24,3 @@ if (calculo >= 18.5 && calculo <= 24.9) {
   } else {
     console.log(`Seu IMC é de ${calculo.toFixed(2)} e não está saudável.`);
   }
-
