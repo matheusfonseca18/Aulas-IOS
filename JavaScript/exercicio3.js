@@ -14,7 +14,8 @@ console.log()
 let par =numbers.filter((pares) => {
     return pares  % 2 == 0
 })
-console.log(par)
+console.log(numbers)
+console.log(`numeros pares: ${par}`)
 
 
 console.log()
