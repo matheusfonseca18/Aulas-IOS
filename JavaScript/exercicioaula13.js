@@ -8,6 +8,7 @@ const titu2 = () => {
     let change = document.getElementById("bigTittle")
 
     change.innerHTML = "Clicou"
+    change.style.color = "blue"
 }
 
 const titu3 = () => {
