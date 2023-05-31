@@ -1,0 +1,51 @@
+COMO FOI FEITO *até o momento*
+
+Html criado com form, label e input para o usuário colocar os valores, um botão e um parágrafo vazio
+busquei pela fórmula do IMC
+Criei 2 variáveis para receber o peso e altura do usuário, usando querySelector
+Montei a fórmula em uma função  e passeia as variáveis para dentro tbm
+Linkei a função no botão 
+Coloquei um innerhtml para mudar o texto do parágrafo e ver se a fórmula estava funcionando 
+Estava dando como NaN
+Coloquei Number nas variáveis para converter a string para número mas continuou dando NaN
+Pesquisando vi que precisava colocar .value no final do código, assim o cálculo funcionou
+Para mostrar a frase criei 2 variáveis uma dizendo q o IMC estava bom e outra dizendo q estava ruim, as 2 mostrando o resultado do IMC 
+Usei tofixed para mostra apenas 2 casas após a vírgula
+Apaguei a primeira variável que mostra a mensagem do cálculo e criei um if else usando as 2 variáveis de frase que estavam criadas
+
+---------------------------------------------------------
+
+elementos usado no HTML *até o momento*
+
+Form para coletar dados
+
+label para informar o que está sendo pedido
+
+input para o usuário inserir os dados
+
+button para finalizar o formulário, que será usado para executar a função
+
+---------------------------------------------------------
+
+elementos usados no JS *até o momento*
+
+const para a função
+
+let para criar variáveis e armazenar dados
+
+Number e value para converter a string para número
+
+querySelector para selecionar o objeto
+
+elementos de concatenação para formar as frases
+
+if else para dar diferentes respostas dependendo do resultado do IMC
+
+&& para testar 2 parâmetros em apenas 1 teste lógico
+
+innerHTML para mudar o texto do objeto
+
+---------------------------------------------------------
+
+elementos usados no CSS *até o momento*
+

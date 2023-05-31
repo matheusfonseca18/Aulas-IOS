@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="peso">peso</label>
+      <input type="number" id="peso" placeholder="Peso en KG"/>  <!-- usuario digita o valor -->
+
+      <label for="altura">altura</label>
+      <input type="number" id="altura" placeholder="Altura em CM"/> <!-- usuario digita o valor -->
+
+      <input type="button" value="Calcular" onclick="calcular()"/> <!-- ao clicar executa a funcao do javascript -->
+
+      <p id="resultado"></p> <!-- vazio para aparecer a mensagem apenas depois do calculo -->
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>
